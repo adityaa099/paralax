@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+#wrapper{
+    height: 100vh;
+    overflow-x: hidden;
+    overflow-y: auto;
+    perspective: 10px;
+}
+
+.container{
+    height: 100%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform-style: preserve-3d;
+    z-index: -1;
+}
+
+
+.background{
+    transform: translateZ(-40px) scale(5.1);
+    
+    
+}
+
+.background , .foreground{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+    object-fit: cover;
+    
+}
+.foreground {
+    position: absolute;
+    width: 300px;   /* resize the bird */
+    height: auto;   /* keep aspect ratio */
+    top: 70%;
+    left: 50%;      
+    
+    transform: translateX(-20%) translateZ(-20px) scale(3);
+}
+
+
+#id1{
+    color: white;
+    position: relative;
+    bottom: 30%;
+    font-size: 6rem;
+    letter-spacing: 4px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
+
+section{
+    background-color: rgb(45,45,45);
+    color: white;
+    padding: 5rem 0;
+}
+.secHeading{
+    font-size: 5rem;
+    padding: 0 10rem;
+}
+.text{
+    font-size: 1rem;
+    padding: 0 10rem;
+    margin: 5rem 0;
+}
+.bg{
+    position: relative;
+    width: 100%;
+    height: 400px;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+}
+
+.desc{
+    position: absolute;
+    background-color: white;
+    padding: 0.5rem 2.5rem;
+    top: 44%;
+    left: 38%;
+    translate: translateX(-50%) translateY(-50%);
+    color: black;
+    font-size: 2.5rem;
+    font-weight: 600;
+
+     
+
+}
+
+.bg1{
+    background-image: url("pexels-tobiandchris-28005837.jpg");
+}
+
+.bg2{
+    background-image: url("pexels-quang-nguyen-vinh-222549-2132116.jpg");
+}
+
+.bg3{
+    background-image: url("pexels-nui-malama-169330637-10997909.jpg");
+}
+
