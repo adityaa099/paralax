@@ -57,6 +57,3 @@ Create a Dark Mode version for enhanced visuals
   Aditya Chouksey
 
 ⭐ Loved it? Drop a star on GitHub! ⭐
-
-👤 Author
-Aditya Chouksey
